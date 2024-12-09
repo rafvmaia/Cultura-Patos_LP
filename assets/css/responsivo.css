@@ -1,0 +1,43 @@
+/* Responsividade */
+@media (max-width: 768px) {
+    .main-banner .row {
+        display: flex;
+        flex-direction: column; /* Força os elementos a ficarem em uma coluna */
+        align-items: center; /* Centraliza o conteúdo */
+    }
+
+    .main-banner .col-6 {
+        width: 100%; /* Faz cada coluna ocupar 100% da largura */
+        margin-bottom: 20px; /* Adiciona espaçamento entre as colunas */
+    }
+
+    .main-banner .col-6:last-child {
+        margin-bottom: 0; /* Remove o espaçamento extra da última coluna */
+    }
+}
+
+
+@media (max-width: 480px) {
+    .main-banner {
+        flex-direction: column; /* Garante o alinhamento em uma única coluna */
+        height: auto;
+        padding: 20px;
+    }
+
+    .logo-img img {
+        max-width: 80%; /* Ajusta o tamanho do logo no mobile */
+        height: auto;
+    }
+
+    .titulo {
+        font-size: 1.6rem; /* Reduz o tamanho do título no mobile */
+        text-align: center;
+    }
+
+    .main-banner p {
+        font-size: 0.85rem; /* Reduz o tamanho do texto no mobile */
+        line-height: 22px;
+        width: 100%; /* Ocupa toda a largura disponível */
+        text-align: center;
+    }
+}
