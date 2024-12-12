@@ -40,4 +40,29 @@
         width: 100%; /* Ocupa toda a largura disponível */
         text-align: center;
     }
+    .video {
+        padding: 50px;
+    }
+    .video .container iframe {
+        padding: 60px;
+    }
+    .nivel{
+        height: auto;
+    }
+    .nivel h2{
+        font-size: 27px;
+        text-align: center;
+        padding: 20px;
+    }
+    .nivel p{
+        font-size: 1.4rem; /* Reduz o tamanho do texto no mobile */
+        line-height: 22px;
+        padding: 20px;
+        height: auto;
+        text-align: center;
+        width: 100%;
+    }
+    .button-div-blue{
+        padding-bottom: 50px;
+    }
 }

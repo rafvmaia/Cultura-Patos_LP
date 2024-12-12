@@ -51,6 +51,151 @@
     line-height: 30px;
     width: 80%;
     font-size: 1rem;
-    text-align: center;
+    text-align: justify;
+    padding-top: 20px;
 }
 
+.video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/BG-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+.button-div{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.video .container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+
+}
+
+iframe{
+    border: none;
+    border-radius: 30px;
+}
+
+.btn-red{
+    background-color: var(--vermelho);
+    color: var(--branco);
+    padding: 15px 45px 15px 45px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.nivel{
+    background-color: var(--vermelho);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nivel .container{
+    display: flex;
+    justify-content: center;
+}
+.nivel .container .row .col{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nivel .container .row .col2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.btn-blue{
+    background-color: var(--main-blue);
+    color: var(--branco);
+    padding: 15px 45px 15px 45px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+.button-div-blue{
+    padding-top: 30px;
+
+}
+.img-nivel{
+    width: 100%;
+    padding: 50px;
+}
+
+.nivel h2{
+    font-family: var(--main-font);
+    font-weight: var(--bold);
+    color: var(--branco);
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+}
+.nivel p {
+    font-family: var(--main-font);
+    color: var(--branco);
+    line-height: 30px;
+    width: 80%;
+    font-size: 1rem;
+    text-align: justify;
+    padding-top: 20px;
+}
+
+.melhor-curso{
+    background-color: var(--main-blue);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.melhor-curso .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.melhor-curso .img-melhor-curso{
+    width: 55%;
+}
+
+.melhor-curso h1{
+    font-family: var(--main-font);
+    font-weight: var(--bold);
+    color: var(--amarelo);
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    text-align: center;
+}
+.invista-img{
+    width: 400px;
+}
+
+.cta-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/bg-light-blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    padding: 50px;
+}
